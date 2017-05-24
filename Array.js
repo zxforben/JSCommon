@@ -19,4 +19,19 @@ a.join(" "); //"1 2 3"
 
 a.join("");  //"123""
 
+Array.isArray([]); //true
+
+Array.isArray({});//false
+
+var a={};
+var i=0;
+while(i<10){
+    a[i] = i*i;
+    i++;
+}
+a.length=i;
+
+var total=0;
+for(var j=0;j<a.length;j++)
+    total+=a[j];
 
