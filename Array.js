@@ -4,7 +4,7 @@ var b = new Array(10);
 
 var c  = new Array(5,4,3,2,1,"testing, testing");
 
-//稀疏数组: 数组长度大于元素个数
+//稀疏数组: 数组长度大于元素个数-x
 a = new Array(5);
 
 a=[];
